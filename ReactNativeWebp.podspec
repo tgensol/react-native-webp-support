@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
                           DESC
   s.source              = { :git => "https://github.com/tgensol/react-native-webp-support.git", :tag => "v#{s.version}" }
   s.platform            = :ios, "9.0"
+  s.vendored_frameworks = 'WebP.framework', 'WebPDemux.framework'
   s.source_files        = 'ReactNativeWebp/**/*.{h,m}','*.{h,m}'
   s.dependency          'React'
 end
