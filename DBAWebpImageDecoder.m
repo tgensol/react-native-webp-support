@@ -1,6 +1,6 @@
 #import "DBAWebpImageDecoder.h"
 #include "WebP/decode.h"
-#include "WebP/demux.h"
+#include "WebPDemux/demux.h"
 
 static void free_data(void *info, const void *data, size_t size)
 {
